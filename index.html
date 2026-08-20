@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Digital Business Card</title>
+  <meta name="description" content="Professional digital business card">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="page">
+    <section class="card" id="card">
+      <div class="cover"></div>
+      <div class="profile">
+        <img id="photo" class="photo" src="assets/profile.svg" alt="Profile photo">
+        <div class="company-logo-wrap">
+          <img id="logo" class="company-logo" src="assets/logo.svg" alt="Company logo">
+        </div>
+      </div>
+
+      <div class="content">
+        <p class="eyebrow" id="company">YOUR COMPANY</p>
+        <h1 id="name">Your Name</h1>
+        <p class="title" id="jobTitle">Your Job Title</p>
+        <p class="bio" id="bio">Professional digital business card. Replace the sample information in config.js with your own details.</p>
+
+        <div class="actions">
+          <a id="callBtn" class="action primary" href="#"><span>☎</span> Call</a>
+          <a id="whatsappBtn" class="action" href="#" target="_blank" rel="noopener"><span>◉</span> WhatsApp</a>
+          <a id="emailBtn" class="action" href="#"><span>✉</span> Email</a>
+          <button id="saveBtn" class="action" type="button"><span>＋</span> Save Contact</button>
+        </div>
+
+        <div class="links" id="links"></div>
+
+        <div class="share-row">
+          <button id="shareBtn" class="share" type="button">↗ Share Card</button>
+          <button id="qrBtn" class="share" type="button">▦ QR Code</button>
+        </div>
+
+        <div class="details">
+          <div class="detail"><span>📍</span><div><strong>Address</strong><p id="address">Singapore</p></div></div>
+          <div class="detail"><span>🌐</span><div><strong>Website</strong><p id="websiteText">yourcompany.com</p></div></div>
+        </div>
+      </div>
+      <footer>Digital Business Card</footer>
+    </section>
+  </main>
+
+  <dialog id="qrDialog">
+    <div class="dialog-head"><strong>Scan to view this card</strong><button id="closeQr" aria-label="Close">×</button></div>
+    <div id="qrcode"></div>
+    <p class="qr-url" id="qrUrl"></p>
+  </dialog>
+
+  <div id="toast" class="toast" role="status"></div>
+  <script src="config.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
