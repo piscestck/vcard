@@ -13,8 +13,8 @@ const CARD = {
   websiteLabel: "https://www.paclin.com.sg",
   address: "2 Sims Cl, #02-04 Gemini@Sims, Singapore 387298",
   bio: "Helping customers with professional printing, ID cards, lanyards and customised business solutions.",
-  photo: "profile.jpg",
-  logo: "logo.jpg",
+  photo: ""C:\Users\CK\Desktop\Kien\ID CARD PHOTO SAMPLE.png"",
+  logo: ""Z:\5 Marketing Folder\Paclin Logo\PaclinID transparent.png"",
   accent: "#0b6477",
   accent2: "#083d4a"
 };
