@@ -9,7 +9,7 @@ const CARD = {
   phone: "+65 9146 8029",
   whatsapp: "6591468029", // country code + 65, no + or spaces
   email: "ck.tay@paclin.com.sg",
-  website: "https://www.paclin.com.sg/",
+  website: "https://www.paclin.com.sg",
   websiteLabel: "paclin.com.sg",
   address: "2 Sims Cl, #02-04 Gemini@Sims, Singapore 387298",
   bio: "Helping customers with professional printing, ID cards, lanyards and customised business solutions.",
